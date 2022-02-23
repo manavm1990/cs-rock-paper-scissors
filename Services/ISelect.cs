@@ -9,5 +9,5 @@ public interface ISelect
         Scissors
     }
 
-    public Choice Select();
+    public Choice GetVal();
 }

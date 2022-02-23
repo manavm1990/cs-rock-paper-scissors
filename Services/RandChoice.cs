@@ -2,8 +2,8 @@ namespace RockPaperScissors.Services;
 
 internal class RandChoice : ISelect
 {
-    public ISelect.Choice Select()
+    public ISelect.Choice GetVal()
     {
-        return (ISelect.Choice) new Random().Next(1, 4);
+        return (ISelect.Choice)new Random().Next(0, 3);
     }
 }
